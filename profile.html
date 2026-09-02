@@ -1,41 +1,207 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sunbright | My Personal Profile</title>
+	<title>Sunbright | Personal Portfolio</title>
+	<link rel="icon" type="image/png" href="./favicon.png">
 	<style>
 		body {
 			background-color: white;
-			font-family: Georgia;
+			font-family: Tahoma;
+			color: grey;
+		}
+		.header {
+			font-size: 9px;
+		}
+		h3 {
+			color: black;
+		}
+		.navigation {
+			list-style-type: none;
+			background-color: black;
+			overflow: hidden;
+			margin: 0;
+			padding: 10px;
+		}
+		.navigation li {
+			float: left;
+		}
+		.navigation li a {
+			color: white;
+			text-decoration: none;
+			padding: 10px 60px;
+		}
+		.navigation li a:hover {
+			background-color: grey;
+		}
+		table {
+			width: 100%;
+			text-align: center;
+			border-top: 1px solid black;
+			border-collapse: collapse;
+			color: black;
+		}
+		th, td {
+			border-bottom: 1px solid black;
+			padding: 10px;
+		}
+		tr:hover {
+			background-color: grey;
+		}
+		.aboutinterestcontact {
+			background-color: grey;
+			color: white;
+			padding: 20px;
+			margin: 30px;
+		}
+		.contactlinks {
+			text-align: right;
+			padding-right: 20px;
+		}
+		.contactlinks a {
+			color: white;
+		}
+		img {
 		}
 	</style>
 </head>
 <body>
-	<p style="font-size:9px;">My Portfolio Website | v1.0</p>
-	<h1>Dickson Bright Chinaobi</h1>
 
-	<!-- About Me Section -->
-	<h2 style="color: blue;">About Me</h2>
-	<p> My name is <b>Dickson Bright Chinaobi.</b> I am <I>37years old</I> and 	currently a <ins>financial market trader.</ins></p>
+	<!-- header -->
 
-	<!-- My Interests Section -->
-	<h3 style="color: red;">My Interests</h3>
-	<p style="font-size: 160%">I have <mark>interests</mark> in markets, software engineering, 	books, pencil arts, self mastery.</p>
+	<div class="header">
+		<p>My Portfolio Website | v1.1</p>
+	</div>
 
-	<h4>Why I'm Learning Web Development</h4>
-	<p>I am learning web development because I enjoy the idea of building systems 	and solving problems using senior development skills. I am also learning web 	development to diversify and increase my income streams.</p>
 
-	<!-- My Favorite Quote Section -->
-	<h5>My Favorite Quote</h5>
-	<p>Marcus Aurelius once said:</p>
-	<blockquote>
-	You have power over your mind - not outside events. Realise this and you will 	find strength.
-	</blockquote>
+	<!-- navigation menu -->
 
-	<h6>Useful Links</h6>
-	<p><a href="https://www.tradingview.com/" title="Price action charts">Tradingview</a></p>
-	<p><a href="https://www.investing.com" title="Macro and fundamental updates" 	target="_blank">Investing.com</a></p>
+	<div>
+		<ul class="navigation">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#myskills">My Skills</a></li>
+			<li><a href="#myinterests">My Interests</a></li>
+			<li><a href="#learningjourney">Learning Journey</a></li>
+			<li><a href="#resources">Resources</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+
+
+	<!-- Intro section -->
+
+	<div id="home">
+		<h3>Dickson Bright Chinaobi</h3>
+		<p>Financial Market Trader & Aspiring Software Developer</p>
+		<p><img src="profileicon.png" alt="profile photo" width="150px" height="150px"></p>
+		<q>I study markets, technology and personal development while learning to build useful digital products.</q>
+	<hr>
+	</div>
+
 	
-	<!-- My footer section -->
-	<p>All right reserved. @2026 Sunbright</p>
+	<!-- about me section -->
+
+	<div id="about" class="aboutinterestcontact">
+		<h3>About Me</h3>
+		<p>I am that <strong>inevitable</strong> guy. I currently trade the <em>Gold</em> commodity in the financial markets. I have quite a handful of interests. I am interested in self mastery, technology, books, art, exercise, advancing rapidly</p>
+		<p>By learning software development, I hope to be a <mark>system thinker and problem solver</mark>. Being able to <ins>brainstorm and create solutions </ins>for problems that individuals and businesses deal with. I hope to achieve fulfilment as software development has been a childhood dream for me. I have always been drawn to it.</p>
+	</div><hr>
+
+
+	<!-- my skills section -->
+
+	<div id="myskills">
+		<h3>My Skills</h3>
+		<ul>
+			<li>Financial Market Trading</li>
+			<li>Market Analysis</li>
+			<li>Research</li>
+			<li>Front End Development
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+				</ul>
+			</li>
+			<li>System Thinker</li>
+			<li>Problem Solving</li>
+		</ul>
+	<hr>
+	</div>
+
+
+	<!-- my interests section -->
+
+	<div class="aboutinterestcontact" id="myinterests">
+		<h3>My Interests</h3>
+		<ol>
+			<li>Financial Markets</li>
+			<li>Software Engineering</li>
+			<li>books</li>
+			<li>Pencil Art</li>
+			<li>Self Mastery</li>
+		</ol>
+	</div><hr>
+	
+
+	<!-- my learning journey section -->
+
+	<div id="learningjourney">
+		<h3>My Learning Journey</h3>
+		<table>
+			<tr>
+				<th>Technology</th>
+				<th>Status</th>
+				<th>Current Level</th>
+			</tr>
+			<tr>
+				<td>HTML</td>
+				<td>Learning</td>
+				<td>Beginner</td>
+			</tr>
+			<tr>
+				<td>CSS</td>
+				<td>Next</td>
+				<td>Not Started</td>
+			</tr>
+			<tr>
+				<td>Javascript</td>
+				<td>Upcoming</td>
+				<td>not Started</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<!-- useful resources section -->
+
+	<div id="resources">
+		<h3>Useful Resources</h3>
+		<p><a href="https://www.tradingview.com/" title="Price action charts">Tradingview</a></p>
+		<p><a href="https://www.investing.com" title="Macro and fundamental updates" target="_blank">Investing.com</a></p>
+		<p><a href="https://www.w3schools.com" title="Learn software development" target="_blank">W3schools</a></p>	
+	<hr>
+	</div>
+
+
+	<!-- contact me -->
+
+	<div id="contact" class="aboutinterestcontact">
+	<h3> Contact Me</h3>
+		<p>Contact me using any of the links at the right end for faster responses>></p>
+		<div class="contactlinks">
+			<a href="mailto:sbmarkets.bright@gmail.com" target="_blank" title="sbmarkets.bright@gmail.com">Email</a><br>
+			<a href="https://github.com/sunbrightdeveloper" target="_blank" title="https://github.com/sunbrightdeveloper">Github</a><br>
+			<a href="#" title="coming Soon" target="_blank">LinkedIn</a>
+		</div>			
+	</div><hr>
+
+
+	<!-- footer section -->
+
+	<div>
+		<small>(c) 2026 Dickson Bright Chinaobi. All Rights reserved.</small>
+	</div>
 </body>
 </html>
+
