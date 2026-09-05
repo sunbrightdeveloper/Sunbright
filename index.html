@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sunbright | Personal Portfolio</title>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+	<style>
+		body {
+			background-color: white;
+			font-family: Tahoma;
+			color: grey;
+			margin: 10px 40px;
+		}
+		header {
+			font-size: 9px;
+		}
+		h3 {
+			color: black;
+		}
+		.navigation {
+			display: flex;
+			background-color: white;
+			padding: 0;
+			justify-content: flex-end;
+		}
+		.navigation ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 10px;
+		}
+		.navigation li{
+			display: inline;
+		}
+		.navigation li a {
+			color: black;
+			text-decoration: none;
+			padding: 10px 40px;
+			
+		}
+		.navigation li a:hover {
+			background-color: grey;
+		}
+		.intro {
+			display: flex;
+			border-bottom: 1px solid black;
+		}
+		.intro1 {
+			flex: 4;
+		}
+		.intro2 {
+			flex: 1;
+			display: flex;
+			align-items: flex-end;
+		}
+		table {
+			width: 100%;
+			text-align: center;
+			border-top: 1px solid black;
+			border-collapse: collapse;
+			color: black;
+			table-layout: fixed;
+		}
+		th{
+			width: 25%
+		}
+		th, td {
+			border-bottom: 1px solid black;
+			padding: 10px;
+		}
+		tr:hover {
+			background-color: grey;
+		}
+		.content-section {
+			background-color: grey;
+			color: white;
+			padding: 20px;
+			margin: 30px;
+		}
+		.content-section h3 {
+			color: white;
+		}
+		#iframe {
+			display: block;
+			margin-bottom: 30px;
+		}
+		#iframe div {
+			display: flex;
+			justify-content: center;
+			align-item: center;
+		}
+		.usefulresources li {
+			margin: 10px 0;
+		}
+		.usefulresources li a {
+			color: grey;
+		}
+		.contactlinks {
+			text-align: right;
+			padding-right: 20px;
+		}
+		.contactlinks a {
+			color: white;
+		}
+		footer {
+			display: flex;
+			height: 40px;
+		}
+		.footer1 {
+			flex: 6;
+		}
+		.footer2 {
+			flex: 1;
+		}
+		.footer2 button {
+			width: 40px;
+			height: 100%;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<!-- header -->
+
+	<header id="header">
+		<p>My Portfolio Website | v1.2</p>
+	</header>
+
+
+	<!-- navigation menu -->
+
+	<nav class="navigation">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#myskills">Skills</a></li>
+			<li><a href="#myinterests">Interests</a></li>
+			<li><a href="#learningjourney">Learning Journey</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#resources">Resources</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav><hr>
+
+
+	<!-- main -->
+	
+	<main>
+
+		<!-- Home section -->
+
+		<section class="intro" id="home">
+			<div class="intro1">
+				<h3>Dickson Bright Chinaobi</h3>
+				<p>Financial Market Trader & Aspiring Software Developer</p>
+				<p><img src="images/profileicon.png" alt="profile photo" width="150px" height="150px"></p>
+				<q>I study markets, technology and personal development while learning to build useful digital products.</q>
+				<p>
+					<a href="#about">Learn More About Me</a><br>
+					<a href="#contact">Contact Me</a>
+				</p>
+			</div>
+			<div class="intro2">
+				<p>
+					<a href="#projects"><button>Projects</button></a>	
+					<a href="#contact"><button>Contact Me</button></a>			
+				</p>
+			</div>
+		</section>
+
+	
+		<!-- about me section -->
+
+		<section id="about" class="content-section">
+			<h3>About Me</h3>
+			<p>My name is Dickson Bright Chinaobi. I was born in Nigeria in the year <em>1990</em>. I am a financial market trader focused on the <mark>Gold</mark> commodity and the <mark>USD</mark>. I have quite a handful of interests such as self <strong>mastery</strong>, technology, books, art, exercise, advancing rapidly.</p>
+			<p>By learning software development, I hope to be a system thinker and problem solver, one who is able to brainstorm and create solutions for problems that individuals and businesses deal with. I hope to become a person of high value, creating more than I consume, giving much more than I receive.</p>
+		</section><hr>
+
+
+		<!-- my skills section -->
+
+		<section id="myskills">
+			<h3>My Skills</h3>
+			<p>Professional Skills:</p>
+			<ul>
+				<li>Financial Market Trading
+					<ul>
+						<li>Commodities</li>
+						<li>Currencies</li>
+						<li>Crypto</li>
+					</ul>
+				</li>
+				<li>Market Analysis</li>
+				<li>Research</li>
+				<li>Problem Solving</li>
+			</ul>
+			<p>Technology Skills:</p>
+			<ul>
+				<li>HTML</li>
+				<li>CSS: Learning Next</li>
+				<li>Javascript: Upcoming</li>
+			</ul>
+		<hr>
+		</section>
+
+
+		<!-- my interests section -->
+
+		<section class="content-section" id="myinterests">
+			<h3>My Interests</h3>
+			<ol>
+				<li>Financial Markets</li>
+				<li>Software Engineering</li>
+				<li>books</li>
+				<li>Pencil Art</li>
+				<li>Self Mastery</li>
+			</ol>
+		</section><hr>
+	
+
+		<!-- my learning journey section -->
+
+		<section id="learningjourney">
+			<h3>My Learning Journey</h3>
+			<table>
+				<tr>
+					<th>Technology</th>
+					<th>Status</th>
+					<th>Current Level</th>
+					<th>Goal</th>
+				</tr>
+				<tr>
+					<td>HTML</td>
+					<td>Completed Basics</td>
+					<td>Beginner</td>
+					<td>Build structured webpages</td>
+				</tr>
+				<tr>
+					<td>CSS</td>
+					<td>Starting</td>
+					<td>Beginner</td>
+					<td>Design responsive websites</td>
+				</tr>
+				<tr>
+					<td>Javascript</td>
+					<td>Upcoming</td>
+					<td>not Started</td>
+					<td>Add website interactions</td>
+				</tr>
+			</table>
+		</section>
+		
+		
+		<!-- projects section -->
+	
+		<section id="projects">
+			<h3>Projects</h3>
+			<h5>1. Personal Portfolio Website</h5>
+			<p>This is my first project that I created while learning HTML, CSS and javascript.</p>
+			<p>Technology:</p>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+			</ul>
+			<p>Status: In Development</p>
+			
+			<h5>2. Future Project</h5>
+			<p>I will be starting an e-commerce and social media site projects in the future when I finish developing my current website</p>
+		</section><hr>
+
+		
+		<!-- iframe section -->
+
+		<section id="iframe">
+			<h3>Iframe</h3>
+			<div>
+				<iframe src="https://exchange.worldclax.com/" height="400" width="60%" title="Worldclax Exchange"></iframe>
+			</div>	
+		</section>
+
+
+		<!-- resources section -->
+
+		<section class="usefulresources" id="resources">
+			<h3>Resources</h3>
+			<p>Useful external websites:</p>
+			<ul>
+				<li><a href="https://www.tradingview.com/" title="Price action charts">Tradingview</a></li>
+				<li><a href="https://www.investing.com" title="Macro and fundamental updates" target="_blank">Investing.com</a></li>
+				<li><a href="https://www.w3schools.com" title="Learn software development" target="_blank">W3schools</a></li>	
+				<li><a href="https://www.substack.com" title="Read and write articles" target="_blank">Substack</a></li>	
+			</ul>
+		<hr>
+		</section>
+
+
+		<!-- contact me section -->
+
+		<section id="contact" class="content-section">
+		<h3> Contact Me</h3>
+			<p>Contact me using any of the links at the right end for faster responses>></p>
+			<div class="contactlinks">
+				<a href="mailto:sbmarkets.bright@gmail.com" target="_blank" title="sbmarkets.bright@gmail.com">Email</a><br>
+				<a href="https://github.com/sunbrightdeveloper" target="_blank" title="https://github.com/sunbrightdeveloper">Github</a><br>
+				<a href="#" title="coming Soon" target="_blank">LinkedIn</a>
+			</div>			
+		</section><hr>
+
+	</main>
+
+	<!-- footer section -->
+
+	<footer>
+		<div class="footer1">
+			<small>&copy; 2026 Dickson Bright Chinaobi. All Rights reserved.</small>
+		</div>
+		<div class="footer2">
+			<a href="#header"><button>&#8593;</button></a>
+		</div>
+	</footer>
+</body>
+</html>
+
